@@ -12,7 +12,7 @@ BoxJs网址：https://boxjs.com 或者新版：https://dompling.github.io/boxjs.
 
 /*
 [task_local]
-0 8 * * * https://raw.githubusercontent.com/Toperlock/Quantumult/main/task/oil_price.js, tag=今日油价, img-url=https://raw.githubusercontent.com/Toperlock/Quantumult/main/icon/oil.png, enabled=true
+0 8 * * * https://raw.githubusercontent.com/elvis0516/wool_scripts/main/QuantumultX/scripts/oil.js, tag=今日油价, img-url=https://raw.githubusercontent.com/Toperlock/Quantumult/main/icon/oil.png, enabled=true
 */
 
 const $ = new Env("查询油价");
