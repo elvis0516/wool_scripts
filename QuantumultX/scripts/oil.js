@@ -16,8 +16,8 @@ BoxJs网址：https://boxjs.com 或者新版：https://dompling.github.io/boxjs.
 */
 
 const $ = new Env("查询油价");
-// 默认威海
-var region = $.getdata("地区") || "weihai";
+// 默认
+var region = $.getdata("地区") || "shandong";
 
 const query_addr = `http://m.qiyoujiage.com/${region}.shtml`;
 
